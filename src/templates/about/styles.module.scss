@@ -1,0 +1,24 @@
+.about {
+}
+.aboutText {
+    position: relative;
+    padding: 0 24px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: var(--black-color);
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -12px;
+        width: 234px;
+        height: 168px;
+        z-index: -1;
+        background-color: var(--lime-color);
+    }
+}

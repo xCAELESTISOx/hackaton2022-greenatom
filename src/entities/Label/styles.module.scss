@@ -1,0 +1,31 @@
+.labelWrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.label {
+    min-width: 248px;
+    height: 48px;
+    padding: 0 24px;
+    background: linear-gradient(270deg, var(--salad-color) 41.09%, var(--green-color) 100%);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    width: min-content;
+
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 92%;
+    letter-spacing: 0.04em;
+
+    &.right {
+        background: linear-gradient(90deg, #6fb22f 28.95%, #288909 95.34%);
+        position: relative;
+        right: 0;
+        justify-content: flex-end;
+        text-align: right;
+    }
+}

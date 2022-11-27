@@ -1,0 +1,33 @@
+.greenlab {
+    padding: 80px 0;
+}
+.container {
+    padding: 0 24px;
+}
+
+.greenlabTitle {
+    position: relative;
+    width: min-content;
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: black;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: calc(100% + 12px);
+        top: calc(50% - 2px);
+        height: 4px;
+        width: 40px;
+        background-color: black;
+    }
+}
+.greenlabText {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--black-color);
+}

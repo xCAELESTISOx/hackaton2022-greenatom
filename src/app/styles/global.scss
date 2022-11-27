@@ -1,0 +1,39 @@
+:root {
+   --lime-color: #b2c541;
+   --salad-color: #6fb22f;
+   --green-color: #288909;
+   --nightblue-color: #003274;
+   --skyblue-color: #025ea1;
+   --black-color: #1e1e1e;
+}
+
+@font-face {
+   font-family: "Golos text";
+   src: url("./../fonts/GolosText/Golos-Text_Regular.ttf");
+   font-weight: 400;
+}
+@font-face {
+   font-family: "Golos text";
+   src: url("./../fonts/GolosText/Golos-Text_Medium.ttf");
+   font-weight: 500;
+}
+@font-face {
+   font-family: "Golos text";
+   src: url("./../fonts/GolosText/Golos-Text_DemiBold.ttf");
+   font-weight: 600;
+}
+@font-face {
+   font-family: "Golos text";
+   src: url("./../fonts/GolosText/Golos-Text_Bold.ttf");
+   font-weight: 700;
+}
+
+body {
+   font-family: "Golos Text", sans-serif;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}

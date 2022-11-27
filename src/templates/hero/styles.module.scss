@@ -1,0 +1,36 @@
+.hero {
+    position: relative;
+    padding-bottom: 140px;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 288px;
+        height: 212px;
+        left: 24px;
+        top: 0;
+        z-index: -1;
+
+        background: linear-gradient(116.88deg, #6fb22f -3.35%, #288909 30.28%, #025ea1 60.58%);
+    }
+}
+.heroTitle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 164px;
+    margin-left: 48px;
+    padding-top: 20px;
+    z-index: 1;
+
+    color: white;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.heroImage {
+    position: absolute;
+    right: 0;
+    top: 48px;
+}

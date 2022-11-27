@@ -1,0 +1,16 @@
+.button {
+    border: 3px solid var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    min-width: 200px;
+    background: none;
+
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}

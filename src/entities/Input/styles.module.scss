@@ -1,0 +1,48 @@
+.input {
+   position: relative;
+   background-color: white;
+   border: 1px solid var(--black-color);
+   height: 48px;
+   width: 100%;
+   padding: 14px 20px;
+   outline: none;
+
+   &:-webkit-autofill,
+   &:-webkit-autofill:hover,
+   &:-webkit-autofill:focus,
+   &:-webkit-autofill:active {
+      -webkit-box-shadow: 0 0 0 30px white inset !important;
+   }
+
+   &.error {
+      border-color: #ef6c6c;
+   }
+}
+
+.input:focus + .inputLabel,
+.input.active + .inputLabel {
+   background-color: white;
+   padding: 1px 6px;
+   top: -7px;
+
+   font-size: 12px;
+   color: var(--black-color);
+}
+.inputWrapper {
+   position: relative;
+}
+.inputLabel {
+   position: absolute;
+   top: calc(50% - 10px);
+   left: 20px;
+   transition: 0.2s;
+
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   letter-spacing: 0.04em;
+   color: rgba(30, 30, 30, 0.6);
+}
+.inputError {
+   color: #ef6c6c;
+}
